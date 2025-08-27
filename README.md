@@ -22,11 +22,17 @@ Custom DTBO overlay integration
 Panel timing overrides added to address early blackouts and display sync issues
 
 Integrated MediaTek platform updates from the 2025 MTK patch series:
+
 mtk_disp_drv — r48p2
+
 mtk_imgsys_drv — r36p1
+
 mtk_mdp_core — r51p0
+
 mtk_cam_dev — r27p3
+
 mtk_vcodec — r32p2 (addresses HEVC 10-bit decode stability)
+
 mtk_drm_panel — r18p5
 
 Updated CPU freq and GPU freq scaling tables to reflect Helio G95 operating points.
@@ -46,8 +52,11 @@ Patched VoLTE stability logic in mtk_ims to improve behavior on multi-SIM config
 Scheduler tuning optimized to improve thermal-to-power balance during mixed workloads.
 
 Integrated updated thermal drivers and mappings:
+
 mtk_thermal_core — r14p1
+
 mtk_ts_pa — r12p3
+
 mtk_ts_battery — r9p8
 
 Raised GPU critical throttle trip point to 84 °C (previously 78 °C) to avoid overly aggressive throttling under short sustained loads.
@@ -57,6 +66,7 @@ Corrected inconsistencies in CPU freq tables; Cortex-A76 big cluster now reports
 Kernelsu-Next Included
 
 Known Issues:
+
 Black screen after 6 minutes of usage 
 (Fixed)
 
