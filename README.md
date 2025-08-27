@@ -4,7 +4,7 @@ Upstream: 6.6.42
 
 Version:0.2
 
-Android Version: 15-16
+Android Version: 16
 
 Device:Redmi Note 10S(Secret)
 
