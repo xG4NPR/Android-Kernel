@@ -1,9 +1,13 @@
 Shorekeeper Kernel(Unstable)
 
 Upstream: 6.6.42
+
 Version:0.2
+
 Android Version: 15-16
+
 Device:Redmi Note 10S(Secret)
+
 Build Type: Experimental (Custom DTBO-based)
 Date: 27 August 2025
 
